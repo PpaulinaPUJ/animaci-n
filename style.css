@@ -1,0 +1,38 @@
+div{
+  background-color: #DAF7A6;  
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+position: relative;
+  top:80px;
+  left:230px;
+  animation-name: movimiento;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+}
+@keyframes movimiento{
+  0%{
+   position:relative;
+   top: 100px;
+   left: 120px;
+   background-color:#94F9C1;
+  }
+ 15% {
+   background-color: #C70039;
+  }
+30%{
+  position:relative;
+  top:150px;
+  background-color: #DF3DC2;
+    }
+  50%{
+    background-color: #581845;
+    position: relative;
+    top: 100px;
+  }
+ 80% {
+   background-color: #BC189E;
+   position: relative;
+   right: 150px;
+  }
+}
